@@ -2,12 +2,12 @@
 #define _constants_h
 
 // Key pinout
-// #define USE_INPUT_PULLUPS
-#define K_LEFT              6
-#define K_RIGHT             7
-#define K_UP                8
-#define K_DOWN              9
-#define K_FIRE              10
+#define USE_INPUT_PULLUPS
+#define K_LEFT              2
+#define K_RIGHT             5
+#define K_UP                3
+#define K_DOWN              4
+#define K_FIRE              6
 
 // GFX settings
 #define OPTIMIZE_SSD1306                // Optimizations for SSD1366 displays

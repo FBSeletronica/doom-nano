@@ -2,7 +2,7 @@
 #include "input.h"
 #include "constants.h"
 
-#ifdef USE_INPUT_PULLUP
+#ifdef USE_INPUT_PULLUPS
   #define INPUT_MODE INPUT_PULLUP
   #define INPUT_STATE LOW
 #else
